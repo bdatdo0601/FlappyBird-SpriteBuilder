@@ -13,6 +13,7 @@
     timeSinceObstacle = 0.0f;
     
 }
+
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     //this get called everytime player touches the screen
     [character flap];
@@ -23,6 +24,7 @@
 }
 -(void)update:(CCTime)delta
 {
+    
     // put update code here
     // this will be run every frame.
     // delta is the time that has elapsed since the last time it was run. This is usually 1/60, but can be bigger if the game slows down
