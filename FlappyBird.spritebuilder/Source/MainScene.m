@@ -198,8 +198,7 @@
                 }
             }
         }
-    }
-    _sinceTouch += delta;
+    }    _sinceTouch += delta;
     
     character.rotation = clampf(character.rotation, -30.f, 90.f);
     
